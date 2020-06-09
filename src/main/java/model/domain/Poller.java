@@ -1,7 +1,5 @@
 package model.domain;
 
-import model.domain.Machine;
-
 import java.util.ArrayList;
 import java.util.List;
 

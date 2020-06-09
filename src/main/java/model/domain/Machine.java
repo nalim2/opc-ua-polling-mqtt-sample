@@ -10,6 +10,7 @@ public class Machine {
     public String opcuaAddress = "";
     public AuthConfig auth = null;
     public List<Subscription> subscriptions = new ArrayList<>();
+    public int requestTimeout = 1000;
 
     public List<Subscription> getSubscriptions() {
         return subscriptions;
@@ -26,8 +27,6 @@ public class Machine {
     public void setAuth(AuthConfig auth) {
         this.auth = auth;
     }
-
-    public int requestTimeout = 1000;
 
     public String getName() {
         return name;
